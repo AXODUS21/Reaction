@@ -66,7 +66,7 @@ function expand() {
 
 function retract(){
     document.body.style.backgroundColor = "white";
-    text.style.visibility = "hidden";
+    text.style.visibility = "visible";
     answer.innerText = "";
        topBlob.style.visibility = "visible";
        leftBlob.style.visibility = "visible";
